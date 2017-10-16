@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="it-IT" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>FDManager - Docs</title>
+
+<meta name="description" content="Breve descrizione del contenuto della pagina">
+<meta name="keywords" content="Elenco di parole chiave separate da virgola">
+<link rel="canonical" href="http://fdmanager.altervista.org/">
+<meta name="robots" content="nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="FDManager - Docs">
+<meta property="og:description" content="Breve descrizione del contenuto della pagina">
+<meta property="og:url" content="http://fdmanager.altervista.org/">
+<meta property="og:locale" content="it_IT">
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/fdmanager.altervista.org\/","name":"FDManager - Docs","potentialAction":{"@type":"SearchAction","target":"http:\/\/fdmanager.altervista.org\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+
+<style type="text/css">
+body {background-color:#ffffff;background-repeat:repeat-y;background-position:center center;background-attachment:fixed;}
+h1,h2,h3,h4 {font-family: 'Fjalla One', sans-serif;color:#000000;background-color:#ffffff;}
+p {font-family: 'Open Sans', sans-serif;font-size:16px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
+table {padding: 1px 1px 1px 1px;border-spacing: 1;}
+</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One">
+</head>
+<body>	
+<h1 style="text-align: right;">FDManager 4.1</h1>
+
+<h1 style="text-align: center;">Documentazione</h1>
+
+<h2>Cosa sono le API?</h2>
+<p>Le api sono un sistema che serve a fornire dati, in questo caso dati di FDManager.</p>
+
+<h2>Come posso utilizzarle?</h2>
+<p>Per utilizzarle bisogna fare una richiesta HTTP a questo sito e decodificare il codice json.<br><br>
+
+<h3>Informazioni utente nel gruppo</h3>
+
+<table style="border: 1;">
+<tbody>
+<tr>
+<td><span style="text-align: center;"><b>&nbsp;Field&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Type&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Description&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Requisited&nbsp;</b></span></td>
+</tr>
+<tr>
+<td><span style="text-align: center;">&nbsp;chatid&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;String or Integer&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;ChatID del gruppo ottenibile con .chatid&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;Yes&nbsp;</span></td>
+</tr>
+<tr>
+<td><span style="text-align: center;">&nbsp;userid&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;String or Integer&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;UserID dell' utente ottenibile con /info&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;Yes&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+<br>
+Esempio<br>
+<input type="text" readonly="readonly" value="http://fdmanager.altervista.org?chatid=-1001060061029&userid=354424179" size="70"><br><br>
+
+<h3>Informazioni gruppo</h3>
+
+<table style="border: 1;">
+<tbody>
+<tr>
+<td><span style="text-align: center;"><b>&nbsp;Field&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Type&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Description&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Requisited&nbsp;</b></span></td>
+</tr>
+<tr>
+<td><span style="text-align: center;">&nbsp;chatid&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;String or Integer&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;ChatID del gruppo ottenibile con .chatid&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;Yes&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+<br>
+Esempio<br>
+<input type="text" readonly="readonly" value="http://fdmanager.altervista.org?chatid=-1001060061029" style="size: 51;"><br><br>
+
+<h3>Informazioni utente</h3><br>
+
+<h4>Via UserID</h4>
+
+<table style="border: 1;">
+<tbody>
+<tr>
+<td><span style="text-align: center;"><b>&nbsp;Field&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Type&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Description&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Requisited&nbsp;</b></span></td>
+</tr>
+<tr>
+<td><span style="text-align: center;">&nbsp;userid&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;String or Integer&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;&nbsp;&nbsp;UserID dell'utente ottenibile con /info&nbsp;&nbsp;&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;Yes&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+<br>
+Esempio<br>
+<input type="text" readonly="readonly" value="http://fdmanager.altervista.org?userid=354424179" style="size: 45;"><br><br>
+
+
+<h4>Via Username</h4>
+
+<table style="border: 1;">
+<tbody>
+<tr>
+<td><span style="text-align: center;"><b>&nbsp;Field&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Type&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Description&nbsp;</b></span></td>
+<td><span style="text-align: center;"><b>&nbsp;Requisited&nbsp;</b></span></td>
+</tr>
+<tr>
+<td><span style="text-align: center;">&nbsp;username&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;String&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;&nbsp;&nbsp;Username dell'utente&nbsp;&nbsp;&nbsp;</span></td>
+<td><span style="text-align: center;">&nbsp;Yes&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+<br>
+Esempio<br>
+<input type="text" readonly="readonly" value="http://fdmanager.altervista.org?username=SickName404" style="size: 51;"><br><br>
+
+<h3 style="text-align: center;">Hai altri problemi? Contattaci eseguendo <a href="http://t.me/FDManager_Bot">/ticket testo</a></h3>
+
+</body>
+</html>
