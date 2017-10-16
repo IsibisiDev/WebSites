@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Pagina HTML base</title>
+
+<meta name="description" content="Breve descrizione del contenuto della pagina" />
+<meta name="keywords" content="Elenco di parole chiave separate da virgola" />
+<meta name="robots" content="index,follow">
+<meta name="language" content="it-IT">
+<meta name="author" content="zIsibisi - WebDesigner">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Titolo pagina">
+<meta property="og:description" content="Breve descrizione del contenuto della pagina">
+<meta property="og:url" content="http://www.example.com/example.html">
+<meta property="og:image" content="http://www.example.com/example.png">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Titolo pagina">
+<meta name="twitter:description" content="Breve descrizione del contenuto della pagina">
+<meta name="twitter:image" content="http://www.example.com/example.png">
+
+<style type="text/css">
+body {background-color:#ffffff;background-repeat:repeat-y;background-position:center center;background-attachment:fixed;}
+h1,h2,h3,h4 {font-family: 'Fjalla One', sans-serif;color:#000000;background-color:#ffffff;}
+p {text-align:left;font-family: 'Open Sans', sans-serif;font-size:16px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
+footer {text-align: center;font-family: 'Open Sans', sans-serif;clear: both;}
+</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One" type="text/css">
+</head>
+<body>
+	<h1>Homepage</h1>
+	<p>Benvenuto nella pagina HTML base.</p>
+
+			<footer>
+			  <div id="sitecopyright">Copyright &#169; Nome sito 2017-2017. Tutti i diritti riservati.</div><br>
+		    <div id="copyrightauthor">Simple WebPage (HTML5+CSS) by <a href="http://isibisitgbots.altervista.org/blog" target="_blank" rel="noopener">zIsibisi - WebDesigner</a></div>
+
+				<p style="text-align: center;"><a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it" target="_blank"><img alt="Licenza Creative Commons" style="border-width:0;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Quest'opera è distribuita con Licenza <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it" target="_blank">Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale</a>.</p>
+			</footer>
+
+</body>
+</html>
