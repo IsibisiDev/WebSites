@@ -22,7 +22,7 @@
 body {background-color:#ffffff;background-repeat:repeat-y;background-position:center center;background-attachment:fixed;}
 h1,h2,h3,h4 {font-family: 'Fjalla One', sans-serif;color:#000000;background-color:#ffffff;}
 p {font-family: 'Open Sans', sans-serif;font-size:16px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
-table {padding: 1px 1px 1px 1px;border-spacing: 1;}
+table {padding: 1px 1px 1px 1px;border-spacing: 1;border: 1;}
 #copyright {font-family: 'Open Sans', sans-serif;}
 </style>
 
@@ -42,7 +42,7 @@ table {padding: 1px 1px 1px 1px;border-spacing: 1;}
 
 <h3>Informazioni utente nel gruppo</h3>
 
-<table style="border: 1;">
+<table>
 <tbody>
 <tr>
 <td><span style="text-align: center;"><b>&nbsp;Field&nbsp;</b></span></td>
@@ -70,7 +70,7 @@ Esempio<br>
 
 <h3>Informazioni gruppo</h3>
 
-<table style="border: 1;">
+<table>
 <tbody>
 <tr>
 <td><span style="text-align: center;"><b>&nbsp;Field&nbsp;</b></span></td>
@@ -94,7 +94,7 @@ Esempio<br>
 
 <h4>Via UserID</h4>
 
-<table style="border: 1;">
+<table>
 <tbody>
 <tr>
 <td><span style="text-align: center;"><b>&nbsp;Field&nbsp;</b></span></td>
@@ -117,7 +117,7 @@ Esempio<br>
 
 <h4>Via Username</h4>
 
-<table style="border: 1;">
+<table>
 <tbody>
 <tr>
 <td><span style="text-align: center;"><b>&nbsp;Field&nbsp;</b></span></td>
