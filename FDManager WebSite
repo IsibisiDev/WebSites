@@ -19,11 +19,11 @@
 <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/fdmanager.altervista.org\/","name":"FDManager - Docs","potentialAction":{"@type":"SearchAction","target":"http:\/\/fdmanager.altervista.org\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
 
 <style type="text/css">
-body {background-color:#ffffff;background-repeat:repeat-y;background-position:center center;background-attachment:fixed;}
+body {background-color:#ffffff;background-repeat:repeat-y;background-position:center center;background-attachment:fixed;font-family: 'Open Sans', sans-serif;}
 h1,h2,h3,h4 {font-family: 'Fjalla One', sans-serif;color:#000000;background-color:#ffffff;}
 p {font-family: 'Open Sans', sans-serif;font-size:16px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
 table {padding: 1px 1px 1px 1px;border-spacing: 1;border: 1;}
-#copyright {font-family: 'Open Sans', sans-serif;}
+#copyright {font-family: 'Open Sans', sans-serif;text-align: center;}
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
