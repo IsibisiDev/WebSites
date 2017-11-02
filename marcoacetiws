@@ -55,7 +55,7 @@ p {background-color:#ffffff;font-family: 'Titillium Web', sans-serif;font-size: 
 <p>Se ti serve qualcosa da me puoi <a href="mailto:mail@marcoaceti.it" rel="nofollow">mandarmi una mail</a>.</p>
 
 <h2>Software sviluppati</h2>
-<span style="font-family: 'Titillium Web', sans-serif;">
+<div style="font-family: 'Titillium Web', sans-serif;">
 <ul>
 <li><a href="https://t.me/OrarioTreniBot" target="_blank" rel="noopener"><b>OrarioTreniBot</b></a>: <i>chatbot</i> per le ferrovie italiane (<a href="https://github.com/MarcoBuster/OrarioTreniBot" target="_blank" rel="noopener">codice sorgente</a>)</li>
 </ul>
@@ -69,9 +69,9 @@ p {background-color:#ffffff;font-family: 'Titillium Web', sans-serif;font-size: 
 <li><a href="https://paypal.me/marcoaceti/1" rel="noopener">Offrimi un caffè</a> <small>(per favore)</small></li>
 </ul>
 
-<footer><i>Questa pagina è protetta con protocollo HTTPS: i dati che scambi qui sono al sicuro.</i></span>
+<p><i>Questa pagina è protetta con protocollo HTTPS: i dati che scambi qui sono al sicuro.</i></p></div>
 
-<p style="text-align:center;">Realizzato da &raquo; <a href="https://t.me/zIsibisi" target="_blank" rel="noopener">zIsibisi - Web Designer</a>.</p></footer>
+<p style="text-align:center;">Realizzato da &raquo; <a href="https://t.me/zIsibisi" target="_blank" rel="noopener">zIsibisi - Web Designer</a>.</p>
 
 </body>
 </html>
