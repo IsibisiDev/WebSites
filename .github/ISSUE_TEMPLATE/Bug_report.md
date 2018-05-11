@@ -4,6 +4,9 @@ about: Create a report to help us improve
 
 ---
 
+**Project name**
+The name of the project of this repository with which you find the problem
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
