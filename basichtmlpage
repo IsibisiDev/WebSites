@@ -30,7 +30,7 @@ p {font-size:16px;font-style:normal;font-weight:normal;color:#000;background-col
 footer {text-align: center;clear: both;}
 </style>
 
-<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.min.css" integrity="sha384-yKvSQbnNdsty4fo0bfv6hJ2fe7YICAhRLZdJosUohrMOB3S2Tzla+i82igDxR/DX" crossorigin="anonymous">
+<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.min.css" integrity="sha384-XnToADU3wscrB0k94owiz412IFOvDpawN70+eGDFPQJLy1+nYGzCvHnJskx7/yzX" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One" type="text/css">
 </head>
