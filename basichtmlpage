@@ -20,9 +20,9 @@
 <meta property="og:locale" content="it_IT">
 
 <style type="text/css">
-body {background-color:#fff;background-repeat:repeat-y;background-position:center center;background-attachment:fixed;font-family: 'Open Sans', sans-serif;}
-h1,h2,h3,h4 {font-family: 'Fjalla One', sans-serif;color:#000;background-color:transparent;}
-p {font-size:16px;font-style:normal;font-weight:normal;color:#000;background-color:transparent;}
+body {background-color:#fff;font-family: 'Open Sans', sans-serif;}
+h1,h2,h3,h4 {font-family: 'Fjalla One', sans-serif;}
+p {font-size:16px;font-style:normal;font-weight:normal;}
 footer {text-align: center;clear: both;}
 </style>
 
