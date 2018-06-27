@@ -26,7 +26,7 @@ p {font-size:16px;font-style:normal;font-weight:normal;}
 footer {text-align: center;clear: both;}
 </style>
 
-<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.min.css" integrity="sha384-AOdutQzT3JZSUqBFuEoWrG/zj76YsDG2yGleQKDOK8N5Nf1fxH7WXypkCmWkUKhg" crossorigin="anonymous">
+<link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1/zora-reset.min.css" integrity="sha384-AOdutQzT3JZSUqBFuEoWrG/zj76YsDG2yGleQKDOK8N5Nf1fxH7WXypkCmWkUKhg" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One" type="text/css">
 </head>
