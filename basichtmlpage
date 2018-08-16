@@ -26,7 +26,7 @@ p {font-size:16px;font-style:normal;font-weight:normal;}
 footer {text-align: center;clear: both;}
 </style>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1/zora-reset.min.css" integrity="sha384-AOdutQzT3JZSUqBFuEoWrG/zj76YsDG2yGleQKDOK8N5Nf1fxH7WXypkCmWkUKhg" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@latest/zora-reset.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One" type="text/css">
 </head>
@@ -35,8 +35,8 @@ footer {text-align: center;clear: both;}
 	<p>Welcome to the basic HTML page.</p>
 
 			<footer>
-			  <div id="sitecopyright">Copyright &#169; Nome sito 2017 - 2017. All rights reserved.</div><br>
-		    <div id="copyrightauthor">Simple WebPage (HTML5+CSS) by <a href="http://isibisitgbots.altervista.org/blog" target="_blank" rel="noopener">zIsibisi - WebDesigner</a></div>
+			  <div id="sitecopyright">Copyright &#169; Site name 2017 - 2017. All rights reserved.</div><br>
+		    <div id="copyrightauthor">Simple WebPage (HTML5+CSS) by <a href="https://isibisitgbots.altervista.org/" target="_blank" rel="noopener">zIsibisi - WebDesigner</a></div>
 			</footer>
 
 </body>
