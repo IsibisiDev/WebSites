@@ -34,10 +34,10 @@ footer {text-align: center;clear: both;}
 	<h1>Homepage</h1>
 	<p>Welcome to the basic HTML page.</p>
 
-			<footer>
-			  <div id="sitecopyright">Copyright &#169; Site name 2017 - 2017. All rights reserved.</div><br>
-		    <div id="copyrightauthor">Simple WebPage (HTML5+CSS) by <a href="https://isibisitgbots.altervista.org/" target="_blank" rel="noopener">zIsibisi - WebDesigner</a></div>
-			</footer>
+    <footer>
+        <div id="sitecopyright">Copyright &#169; Site name 2017 - 2017. All rights reserved.</div>
+		<div id="copyrightauthor">Simple WebPage (HTML5+CSS) by <a href="https://isibisitgbots.altervista.org/" target="_blank" rel="noopener">zIsibisi - WebDesigner</a></div>
+	</footer>
 
 </body>
 </html>
